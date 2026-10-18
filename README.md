@@ -1,8 +1,6 @@
 # Digital Signal Processing
 
-![100 Hz 정현파를 네 가지 샘플링 주파수로 샘플링한 결과](Resources/05_Sampling.png)
-
-<sub>100 Hz 정현파를 f<sub>s</sub> = 75, 100, 125, 400 Hz로 샘플링한 결과 ([Sampling.m](03_Sampling/Sampling.m))</sub>
+![디지털 신호 처리 — MATLAB 실습과 손풀이 기록](Resources/Thumbnail.png)
 
 디지털신호처리를 공부하며 작성한 MATLAB 실습과 개념 정리, 문제풀이를 모아둔 저장소입니다.
 신호에서 시작해 컨벌루션, 샘플링과 양자화, 푸리에 해석 순서로 정리했습니다.
@@ -82,6 +80,10 @@ x가 h를 완전히 덮는 구간에서 출력이 가장 크고, 그 값은 h의
 에일리어싱과 양자화 오차는 [개념 정리](Docs/개념%20정리.md#4-샘플링과-양자화)에 정리했습니다.
 
 ### 샘플링과 에일리어싱
+
+![100 Hz 정현파를 네 가지 샘플링 주파수로 샘플링한 결과](Resources/05_Sampling.png)
+
+<sub>100 Hz 정현파를 f<sub>s</sub> = 75, 100, 125, 400 Hz로 샘플링한 결과 ([Sampling.m](03_Sampling/Sampling.m))</sub>
 
 100 Hz 정현파 x(t) = cos(2π·100t)를 f<sub>s</sub> = 75, 100, 125, 400 Hz로 샘플링했습니다.
 시간 영역 결과는 맨 위 그림이고, 아래는 각 샘플 열을 FFT(N = 1024)로 변환한 진폭 스펙트럼입니다. 순서는 왼쪽 위부터 75, 100, 125, 400 Hz입니다.
