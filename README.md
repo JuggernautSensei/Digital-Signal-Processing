@@ -1,10 +1,12 @@
-<div align="center">
-  
-# Digital Signal Processing
+<h1 align="center">Digital Signal Processing</h1>
 
-![디지털 신호 처리 — MATLAB 실습과 손풀이 기록](Resources/Thumbnail.png)
+<p align="center">MATLAB으로 정리한 디지털 신호 처리 실습과 개념 정리</p>
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/MATLAB-0076A8" alt="MATLAB">
+</p>
+
+<p align="center"><img src="Resources/Thumbnail.png" alt="디지털 신호 처리 — MATLAB 실습과 손풀이 기록" width="840"></p>
 
 디지털신호처리를 공부하며 작성한 MATLAB 실습과 개념 정리, 문제풀이를 모아둔 저장소입니다.
 신호에서 시작해 컨벌루션, 샘플링과 양자화, 푸리에 해석 순서로 정리했습니다.
