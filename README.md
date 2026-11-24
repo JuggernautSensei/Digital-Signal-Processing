@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/MATLAB-0076A8" alt="MATLAB">
 </p>
 
-![디지털 신호 처리 실습 표지. 샘플링과 DTFT 그래프, 연습문제 손풀이](Resources/Thumbnail.png)
+<p align="center"><img src="Resources/Thumbnail.png" alt="디지털 신호 처리 실습 표지. 샘플링과 DTFT 그래프, 연습문제 손풀이"></p>
 
 ## Contents
 
